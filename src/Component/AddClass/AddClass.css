@@ -1,0 +1,24 @@
+.add-class-page {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .add-class-page .class-card-container {
+    margin-left: 10%;
+    width: 80%; }
+    .add-class-page .class-card-container h1 {
+      text-align: center; }
+    .add-class-page .class-card-container .class-card-form {
+      width: 80%;
+      margin-left: 10%; }
+      .add-class-page .class-card-container .class-card-form .button-form-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+
+/*# sourceMappingURL=AddClass.css.map */

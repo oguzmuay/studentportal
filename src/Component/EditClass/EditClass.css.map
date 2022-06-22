@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAgB;EACd,QAAQ,EAAE,KAAK;EACf,IAAI,EAAE,CAAC;EACP,GAAG,EAAE,CAAC;EACN,gBAAgB,EAAE,kBAAe;EACjC,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI",
+"sources": ["EditClass.scss"],
+"names": [],
+"file": "EditClass.css"
+}

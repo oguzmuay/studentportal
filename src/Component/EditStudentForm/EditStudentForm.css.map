@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,YAAY;EACV,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,GAAG;EACT,GAAG,EAAE,GAAG;;AAGV,gBAAgB;EACd,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,GAAG;EAChB,uCAAsB;IACpB,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,GAAG;IACnB,eAAe,EAAE,MAAM;IACvB,aAAa,EAAE,GAAG",
+"sources": ["EditStudentForm.scss"],
+"names": [],
+"file": "EditStudentForm.css"
+}

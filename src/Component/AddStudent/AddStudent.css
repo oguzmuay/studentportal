@@ -1,0 +1,28 @@
+.add-student-page {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .add-student-page .student-card-container {
+    width: 80%;
+    margin-left: 10%; }
+    .add-student-page .student-card-container h2 {
+      text-align: center; }
+    .add-student-page .student-card-container .card-title {
+      text-align: center; }
+    .add-student-page .student-card-container .input-form-group {
+      width: 80%;
+      margin-left: 10%; }
+    .add-student-page .student-card-container .create-button-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .add-student-page .student-card-container .create-button-container .create-button {
+        margin-bottom: 15px; }
+
+/*# sourceMappingURL=AddStudent.css.map */

@@ -1,0 +1,11 @@
+.student-card {
+  cursor: pointer;
+  margin-top: 15px; }
+  .student-card .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .student-card .button-container .button {
+      margin: 5px; }
+
+/*# sourceMappingURL=StudentCard.css.map */

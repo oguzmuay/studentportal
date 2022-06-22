@@ -1,0 +1,19 @@
+.main-page {
+  width: 100%;
+  height: 100%; }
+  .main-page .form-container {
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .main-page .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .main-page .input-container .sign-in-button {
+      width: 50%;
+      margin-left: 25%; }
+
+/*# sourceMappingURL=MainPage.css.map */
