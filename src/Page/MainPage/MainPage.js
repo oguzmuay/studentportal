@@ -6,8 +6,18 @@ import {Button, Card, CardBody,
 import {useDispatch, useSelector} from "react-redux";
 import {authActions} from "../../Store/Authantication/AuthSlice";
 import {useState} from "react";
+import {useNavigate} from "react-router-dom";
 
 const MainPage = (props) => {
+
+    const auth = useSelector(state => state.auth.authentication);
+
+    const navigate = useNavigate();
+
+    if (auth.isLoggedIn){
+        navigate("/"+auth.userTitle);
+
+    }
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -17,14 +27,12 @@ const MainPage = (props) => {
     const message = useSelector(state => state.auth.authentication.message);
 
     const onSubmitHandler = () => {
+
         const user = {
             email: email,
             password: password
         }
         dispatch(authActions.login(user));
-
-        //TODO:Navigate to secret route for check if true navigate to login .
-
     }
 
     return (

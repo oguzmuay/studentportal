@@ -5,9 +5,12 @@ import AddStudent from "../../Component/AddStudent/AddStudent";
 import AddClass from "../../Component/AddClass/AddClass";
 import EditStudent from "../../Component/EditStudent/EditStudent";
 import EditClass from "../../Component/EditClass/EditClass";
+import SecretLayer from "../../SecretLayer";
 
 
 const TeacherPage = (props) =>{
+
+    SecretLayer();
 
     const [addStudentFlag, setAddStudentFlag] = useState(false);
     const [addClassFlag, setAddClassFlag] = useState(false);

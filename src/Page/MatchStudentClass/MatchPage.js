@@ -6,8 +6,11 @@ import {Button, Card, CardSubtitle, CardTitle, Col, Container, Row} from "reacts
 import StudentFilter from "../../Component/StudentFilter/StudentFilter";
 import ClassFilter from "../../Component/ClassFilter/ClassFilter";
 import {assignmentActions} from "../../Store/AssignmentSlice/AssignmentSlice";
+import SecretLayer from "../../SecretLayer";
 
 const MatchPage = (props) => {
+
+    SecretLayer();
 
     const dispatch = useDispatch();
 
@@ -73,6 +76,8 @@ const MatchPage = (props) => {
                             dispatch(assignmentActions.addAssignment(payload));
                             setSelectedStudents([]);
                             setSelectedClasses([]);
+                            setStudentListFlag(false);
+                            setClassListFlag(false);
                     }}>
                         Save
                     </Button>

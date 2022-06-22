@@ -8,14 +8,16 @@ import {
 } from "react-router-dom";
 import MainPage from "./Page/MainPage/MainPage";
 import MatchPage from "./Page/MatchStudentClass/MatchPage";
+import StudentPage from "./Page/StudentPage/StudentPage";
 
 function App() {
     return (
         <div className="App">
             <Routes>
-                <Route path="/" element={<MainPage/>}/>
-                <Route path="/home" element={<TeacherPage/>}/>
+                <Route path="/login" element={<MainPage/>}/>
+                <Route path="/teacher" element={<TeacherPage/>}/>
                 <Route path="/match" element={<MatchPage/>}/>
+                <Route path="/student" element={<StudentPage/>}/>
             </Routes>
         </div>
     );

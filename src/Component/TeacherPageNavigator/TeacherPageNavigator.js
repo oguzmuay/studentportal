@@ -43,7 +43,7 @@ const TeacherPageNavigator = (props) => {
             </div>
             <div className="card-row">
                 <Card className="card-column2x" onClick={(event) => {
-
+                    navigate("/match");
                 }}>
                     <CardImg src="./images/OGRENCIDEN_KITABA.svg" alt="Add Match"/>
                     <CardBody>
