@@ -1,0 +1,11 @@
+.class-card {
+  cursor: pointer;
+  margin-top: 15px; }
+  .class-card .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .class-card .button-container .button {
+      margin: 5px; }
+
+/*# sourceMappingURL=ClassCard.css.map */

@@ -16,7 +16,7 @@ const AddClass = (props) => {
 
     const [selectedTeacherIds, setSelectedTeacherIds] = useState([]);
 
-    const classCount = useSelector(state => state.class.classCount);
+    const classCount = useSelector(state => state.class.classIDCounter);
 
     const [className, setClassName] = useState("");
     const [classDescription, setDescription] = useState("");
@@ -81,7 +81,7 @@ const AddClass = (props) => {
                                    }}>
                             </Input>
                             <Label for={"descInput"}>Description</Label>
-                            <Input required id={"descInput"} type={"text"}
+                            <Input required id={"descInput"} type={"textarea"}
                                    onChange={(event)=>{
                                 setDescription(event.target.value);
                             }}></Input>

@@ -28,7 +28,7 @@ const classSlice = createSlice({
             let payload = action.payload;
             for (let i = 0; i < classes.length; i++) {
                 if (i === payload.class.id){
-                    classes[i] = payload.class;
+                    classes[i] = {...payload.class};
                 }
             }
         }

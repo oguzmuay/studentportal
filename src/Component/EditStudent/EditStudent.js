@@ -12,7 +12,7 @@ const EditStudent = (props) => {
 
     const students = useSelector(state => state.auth.user.student);
 
-    const [selectedStudent, setSelectedStudent] = useState({});
+    const [selectedStudent, setSelectedStudent] = useState(null);
 
     const [filter, setFilter] = useState("");
 

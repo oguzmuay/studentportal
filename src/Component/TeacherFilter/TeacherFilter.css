@@ -12,7 +12,8 @@
   border-radius: 5px;
   height: 30px;
   text-align: center;
-  line-height: 30px; }
+  line-height: 30px;
+  overflow: hidden; }
 
 .teacher-add-button:hover {
   background-color: lightslategrey; }

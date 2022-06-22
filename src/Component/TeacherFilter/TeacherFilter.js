@@ -28,7 +28,7 @@ const TeacherFilter = (props) => {
                     onClick={()=>{
                         props.addTeacherToList(x.id);
                     }}>
-                        {x.name}
+                        {x.name + " " + x.surname}
                     </div>
                 })}
             </Card>

@@ -65,11 +65,56 @@ export const data = {
     class:{
         classCount:0,
         classIDCounter:0,
-        array:[]
+        array:[
+            {
+                id:0,
+                name: "asd",
+                akts:0,
+                description: "",
+                pdf:null,
+                teachers:[],
+            },{
+                id:0,
+                name: "asd",
+                akts:0,
+                description: "",
+                pdf:null,
+                teachers:[],
+            },{
+                id:0,
+                name: "asd",
+                akts:0,
+                description: "",
+                pdf:null,
+                teachers:[],
+            },{
+                id:0,
+                name: "asd",
+                akts:0,
+                description: "",
+                pdf:null,
+                teachers:[],
+            },{
+                id:0,
+                name: "asd",
+                akts:0,
+                description: "",
+                pdf:null,
+                teachers:[],
+            }
+        ]
     },
     assignment:{
         assignmentCount:0,
-        array: []
+        array: [
+
+        ]
+    },
+    pdf:{
+        pdfCount:0,
+        array:[
+
+        ]
     }
 }
 
@@ -94,4 +139,14 @@ export const initialClass = {
     description: "",
     pdf:null,
     teachers:[],
+}
+export const initialPDF = {
+    id:0,
+    name:"",
+    downloadCount:0,
+    url:"belki"
+}
+export const initialAssignment = {
+    classId:-1,
+    studentId:-1,
 }
